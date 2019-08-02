@@ -7,6 +7,8 @@
 # environment (to compare the resulting system state to the desired state).
 #
 # Learn more about module testing here:
-# http://docs.puppetlabs.com/guides/tests_smoke.html
+# https://puppet.com/docs/puppet/5.2/tests_smoke.html
 #
-include ssm
+class { 'ssm':
+  region => 'ap-northeast-1',
+}
