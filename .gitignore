@@ -1,0 +1,11 @@
+## MAC OS
+.DS_Store
+
+## VIM
+*.swp
+
+## puppet module build
+pkg
+
+## vagrant
+.vagrant/
